@@ -6,5 +6,5 @@ The goal of this task is to map the following functionality captured in the sequ
 
 A simple code for finding the most relevant image classes has already been prepared.
 
-The frontend should be implemented with the React framework and Typescript. 
+The frontend should be implemented with the React/NextJS framework and Typescript. 
 The type of backend implementation as well as the database can be chosen freely.
