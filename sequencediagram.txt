@@ -1,0 +1,24 @@
+title Image Classification Kata
+
+fontawesome5solid f007 User #ff1492
+fontawesome5solid f6d1 Frontend #ff1492
+fontawesome5solid f6d1 Backend #ff1492
+fontawesome5solid f1c0 Database #ff1492
+
+
+User-#ff1492>Frontend:uploadImage()
+Frontend-#ff1492>Backend:findCategories()
+activate Backend
+Backend-#ff1492>Database:storeImage()
+Backend<#ff1492--Database:image stored
+Frontend<#ff1492--Backend:top 5 categories
+deactivate Backend
+User<#ff1492--Frontend:top 5 categories
+User-#ff1492>Frontend:sendRating()
+Frontend-#ff1492>Backend:rateResult()
+activate Backend
+Backend-#ff1492>Database:storeRating()
+Backend<#ff1492--Database:rating stored
+Frontend<#ff1492--Backend:ratings total
+deactivate Backend
+User<#ff1492--Frontend:ratings total
